@@ -26,7 +26,7 @@ st.markdown(
 # 1. LOAD YOUR PICKLE DATA HERE BEFORE USING IT
 # ==========================================
 # Replace 'movies_dict.pkl' with your actual movie file name if it's different
-movies_import = pickle.load(open('movies_dict.pkl', 'rb')) 
+movies_import = pickle.load(open('movies.pkl', 'rb')) 
 # Replace 'similarity.pkl' with your actual similarity file name
 similarity = pickle.load(open('similarity.pkl', 'rb'))
 
