@@ -14,7 +14,8 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-movies = pickle.load(open("movies.pkl", "rb"))
+st.title("Movie Recommender App")
+st.write("App is running successfully 🚀")
 
 st.markdown("""
 <style>
