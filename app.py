@@ -15,7 +15,6 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 movies = pickle.load(open("movies.pkl", "rb"))
-similarity = pickle.load(open("similarity.pkl", "rb"))
 
 st.markdown("""
 <style>
