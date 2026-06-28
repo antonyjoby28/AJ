@@ -31,7 +31,7 @@ st.markdown(
 )
 
 
-movie_list = movies["title"].values
+movie_list['title'].tolist()
 
 selected_movie = st.selectbox("Select a movie", movie_list)
 
